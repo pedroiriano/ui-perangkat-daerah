@@ -155,7 +155,7 @@ window.addEventListener('scroll', (ev) => {
     windowScroll();
 })
 /*********************/
-/*    Back To TOp    */
+/*    Back To Top    */
 /*********************/
 
 window.onscroll = function () {
