@@ -57,7 +57,12 @@
                                 </script>
                             </p>
                             <p class="text-slate-400 mt-1">
-                                Rabu
+                                <script>
+                                    var currentDate = new Date();
+                                    var options = { weekday: 'long' };
+                                    var day = currentDate.toLocaleDateString('id-ID', options);
+                                    document.write(day);
+                                </script>
                             </p>
                         </div>
                     </div>
