@@ -11,6 +11,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     @apply leading-normal;
 }
 
+a[aria-selected="true"] {
+    color: rgb(79 70 229 / var(--tw-text-opacity)) !important;
+}
+
 ::selection {
     @apply bg-indigo-600/90 text-white;
 }
