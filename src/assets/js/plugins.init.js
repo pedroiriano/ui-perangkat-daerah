@@ -1,13 +1,3 @@
-/* Template Name: Techwind - Multipurpose Tailwind CSS Landing Page Template
-   Author: Shreethemes
-   Email: support@shreethemes.in
-   Website: https://shreethemes.in
-   Version: 1.4.0
-   Created: May 2022
-   File Description: Common JS file of the template(plugins.init.js)
-*/
-
-
 /*********************************/
 /*         INDEX                 */
 /*================================
