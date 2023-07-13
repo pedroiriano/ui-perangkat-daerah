@@ -119,7 +119,7 @@
         <!-- End Navbar -->
 
         <!-- Start Hero -->
-        <section class="relative table w-full py-36 overflow-hidden bg-gradient-to-b to-transparent from-indigo-600/20 dark:from-indigo-600/40">
+        <!-- <section class="relative table w-full py-36 overflow-hidden bg-gradient-to-b to-transparent from-indigo-600/20 dark:from-indigo-600/40">
             <div class="container">
                 <div class="relative grid md:grid-cols-12 grid-cols-1 items-center mt-10 gap-[30px]">
                     <div class="md:col-span-6">
@@ -131,18 +131,95 @@
                                 Website Resmi Perangkat Daerah Kota Depok. Semua informasi mengenai Sistem Layanan yang difasilitasi oleh Perangkat Daerah Kota Depok tersedia di sini.
                             </p>
                         </div>
-                    </div><!--end col-->
-
+                    </div>
                     <div class="md:col-span-6">
                         <div class="relative">
                             <div class="relative rounded-xl overflow-hidden shadow-md dark:shadow-gray-800">
                                 <div class="w-full py-72 bg-slate-400 bg-no-repeat bg-top" data-jarallax='{"speed": 0.1}' style="background-image: url(assets/images/saas/home.jpg); background-size: cover;"></div>
                             </div>
                         </div>
-                    </div><!--end col-->
-                </div><!--end grid-->
-            </div><!--end container-->
-        </section><!--end section-->
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!-- End Hero -->
+
+        <!-- Start Hero -->
+        <section id="controls-carousel" class="relative" data-carousel="static">
+            <div class="overflow-hidden relative h-screen inset-0">
+                <div class="flex items-center justify-center transition-all duration-700 ease-in-out" data-carousel-item="active">
+                    <div loading="lazy" class="image-wrap absolute inset-0 -top-[350px] -bottom-[350px] -left-[100px] -right-[100px] min-w-full w-auto min-h-full h-auto overflow-hidden m-auto z-1 bg-top bg-no-repeat" style="background-image: url(assets/images/business/bg01.jpg); background-size: cover;"></div>
+                    <div class="absolute inset-0 md:bg-gradient-to-r md:from-black md:via-black/80 md:bg-black/20 bg-black/70 z-2"></div>
+                    <div class="container z-3">
+                        <div class="grid grid-cols-1 mt-10">
+                            <div class="md:text-left text-center">
+                                <h1 class="font-bold text-white lg:leading-normal leading-normal text-4xl lg:text-5xl mb-6">
+                                    Lorem ipsum, consectetur.
+                                </h1>
+                                <p class="text-white/70 text-lg max-w-xl">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque tempora cupiditate molestiae quod voluptas aliquid, praesentium ea beatae suscipit id voluptates harum maiores possimus sint modi at placeat nihil illo recusandae mollitia magni laudantium. Incidunt.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex items-center justify-center transition-all duration-700 ease-in-out" data-carousel-item="">
+                    <div class="absolute inset-0 image-wrap z-1 bg-top bg-no-repeat" style="background-image: url(assets/images/business/bg02.jpg); background-size: cover;"></div>
+                    <div class="absolute inset-0 md:bg-gradient-to-b md:from-transparent md:to-black md:bg-black/20 bg-black/70 z-2"></div>
+                    <div class="container z-3">
+                        <div class="grid grid-cols-1 mt-10">
+                            <div class="text-center">
+                                <h1 class="font-bold text-white lg:leading-normal leading-normal text-4xl lg:text-5xl mb-6">
+                                    Lorem ipsum elit. Blanditiis.
+                                </h1>
+                                <p class="text-white/70 text-lg max-w-xl mx-auto">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et architecto sit adipisci quia qui, inventore accusamus tempore voluptas ratione minus omnis quaerat similique reiciendis corrupti cupiditate explicabo! Velit perferendis atque ratione exercitationem sequi harum sint.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex items-center justify-center transition-all duration-700 ease-in-out" data-carousel-item="">
+                    <div class="absolute inset-0 image-wrap z-1 bg-top bg-no-repeat" style="background-image: url(assets/images/business/bg03.jpg); background-size: cover;"></div>
+                    <div class="absolute inset-0 md:bg-gradient-to-l md:from-black md:via-black/80 md:bg-black/20 bg-black/70 z-2"></div>
+                    <div class="container z-3">
+                        <div class="grid grid-cols-1 mt-10">
+                            <div class="md:text-right text-center">
+                                <h1 class="font-bold text-white lg:leading-normal leading-normal text-4xl lg:text-5xl mb-6">
+                                    Eligendi officiis fugiat!
+                                </h1>
+                                <p class="text-white/70 text-lg max-w-xl md:ml-auto">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto est itaque vitae inventore reiciendis totam voluptates, culpa tempore! Corporis, ad reprehenderit ipsam perspiciatis delectus veritatis optio eaque quibusdam, earum dicta ut, quae modi distinctio nostrum!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button type="button" class="flex absolute top-0 left-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none" data-carousel-prev="">
+                <span class="inline-flex justify-center items-center w-8 h-8 rounded-full border border-white hover:border-indigo-600 hover:bg-indigo-600 group-focus:outline-none">
+                    <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+                    </svg>
+                    <span class="hidden">
+                        Previous
+                    </span>
+                </span>
+            </button>
+            <button type="button" class="flex absolute top-0 right-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none" data-carousel-next="">
+                <span class="inline-flex justify-center items-center w-8 h-8 rounded-full border border-white hover:border-indigo-600 hover:bg-indigo-600 group-focus:outline-none">
+                    <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                    </svg>
+                    <span class="hidden">
+                        Next
+                    </span>
+                </span>
+            </button>
+        </section>
         <!-- End Hero -->
 
         <!-- Start Widget -->
